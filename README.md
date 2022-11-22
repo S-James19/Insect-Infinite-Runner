@@ -1,8 +1,12 @@
 ## Insect Infinite Runner Game
 
+---
+
 ### About
 
 I have created an infinite runner game that uses a custom controller and uses real-time data to affect the weather of the game.
+
+---
 
 #### Aims and Objectives
 
@@ -13,6 +17,8 @@ The main objective of the game is to run as far as possible distance as possible
 * Don't hide for too long, otherwise the chasing predator will catch up and eat you.
 * You have 3 lanes to run in, which you can swtich to when running.
 * You can collect leaves along the lanes which will boost your score at the end of the game depending on how many you collect.
+
+---
 
 ### Controls
 
@@ -35,16 +41,22 @@ The custom controller that I have designed includes the following:
 * IR Sensors - To detect hands on the controller for pausing and unpausing game
 * Arduino Microcontroller - to send data from sensors to the Unity application.
 
+---
+
 ### Technologies Used
 
 * Unity
 * C#
 * C++ 
 
+---
+
 ### Installation
 
-
+---
 
 ### License
+
+---
 
 ### Contact
