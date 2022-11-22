@@ -1,4 +1,4 @@
-**This project is licensed under the [Attribution-ShareAlike CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)
+**This project is licensed under the [Attribution-ShareAlike CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)**
 
 # Attribution-ShareAlike 4.0 International
 
