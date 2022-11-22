@@ -59,11 +59,11 @@ The custom controller that I have designed includes the following:
 
 ``` git clone https://github.com/S-James19/Insect-Infinite-Runner ```
 
-2. Create 'key.txt' text file in Insect-Infinite-Runner/Unity Project/User directory.
+2. Create 'key' text file in Insect-Infinite-Runner/Unity Project/User directory.
 
 3. Navigate to https://openweathermap.org/api, choose plan and generate API key.
 
-4. Paste API key into 'key.txt'.
+4. Paste API key into 'key'.
 
 5. Open Project in Unity, Open Main Scene.
 
