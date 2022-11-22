@@ -78,3 +78,5 @@ The custom controller that I have designed includes the following:
 ### License
 
 ---
+
+Find external resources / credits in CREDITS.md
