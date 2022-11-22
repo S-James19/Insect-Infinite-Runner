@@ -71,10 +71,10 @@ git clone https://github.com/your_username_/Project-Name.git
 
 6. Navigate to openweathermap.org/find, search for desired destination and copy number in URL.
 
-
+```
 https://openweathermap.org/city/2643743 // London Example
 
-'''
+```
 
 7. Find GameManager gameObject in MainScene, find Real World Weather script attachted to gameObject.
 
