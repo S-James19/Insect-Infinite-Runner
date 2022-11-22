@@ -10,5 +10,5 @@ In this section you will be able to find credit/reference to all of the 3rd part
 - Simplistic Low Poly Nature - https://assetstore.unity.com/packages/3d/environments/simplistic-low-poly-nature-93894#description
 
 ### Code Scripts
-- 'RealWorldWeather' & 'WeatherStatus' were in package from https://www.youtube.com/watch?v=x53swDdRVOk&t=92s and were modified.
-- 'ArduinoData' were in package Uduino MPU6050, and were modified.
+- 'RealWorldWeather.cs' & 'WeatherStatus.cs' code was from https://www.youtube.com/watch?v=x53swDdRVOk&t=92s video and were briefly modified.
+- 'ArduinoData.cs' code was from Uduino MPU6050 package, and was briefly modified.
