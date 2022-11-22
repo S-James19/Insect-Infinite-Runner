@@ -67,7 +67,7 @@ The custom controller that I have designed includes the following:
 
 5. Open Project in Unity, Open Main Scene.
 
-6. Navigate to openweathermap.org/find, search for desired destination and copy number in URL.
+6. Navigate to https://openweathermap.org find, search for desired destination and copy number in URL.
 
 ``` https://openweathermap.org/city/2643743 // London Example ```
 
