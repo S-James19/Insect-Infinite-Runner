@@ -46,9 +46,11 @@ The custom controller that I have designed involves the player putting both hand
 
 The custom controller that I have designed includes the following:
 
-* MPU6050 Acceleromter - to record orientation of the controller to map in game insect control
+* MPU6050 Accelerometer - to record orientation of the controller to map in game insect control
 * IR Sensors - To detect hands on the controller for pausing and unpausing game
 * Arduino Microcontroller - to send data from sensors to the Unity application.
+
+There is a setting in the GameManager gameObject in the MainScene to change controller type, but only I have the controller, so I have set it to **keyboard by default**.
 
 ---
 
@@ -68,15 +70,15 @@ The custom controller that I have designed includes the following:
 
 ``` git clone https://github.com/S-James19/Insect-Infinite-Runner ```
 
-2. Create 'key' text file in Insect-Infinite-Runner/Unity Project/User directory.
+2. Create text file called 'key'in Insect-Infinite-Runner/Unity Project/User directory.
 
-3. Navigate to https://openweathermap.org/api, choose plan and generate API key.
+3. Navigate to https://openweathermap.org/api, create account, choose plan and generate API key.
 
-4. Paste API key into 'key'.
+4. Paste API key into 'key'text file, save and close.
 
 5. Open Project in Unity, Open Main Scene.
 
-6. Navigate to https://openweathermap.org find, search for desired destination and copy number in URL.
+6. Navigate to https://openweathermap.org , search for desired destination and copy location number code found in URL.
 
 ``` https://openweathermap.org/city/2643743 // London Example ```
 
@@ -85,3 +87,5 @@ The custom controller that I have designed includes the following:
 8. Paste city code into city field.
 
 9. Build project, save wherever you like.
+
+10. Run program.
