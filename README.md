@@ -55,11 +55,11 @@ The custom controller that I have designed includes the following:
 
 1. Clone repository
 
-'''
+```
 
 git clone https://github.com/your_username_/Project-Name.git
 
-'''
+```
 
 2. Create 'key.txt' text file in Insect-Infinite-Runner/Unity Project/User directory.
 
@@ -71,7 +71,6 @@ git clone https://github.com/your_username_/Project-Name.git
 
 6. Navigate to openweathermap.org/find, search for desired destination and copy number in URL.
 
-'''
 
 https://openweathermap.org/city/2643743 // London Example
 
