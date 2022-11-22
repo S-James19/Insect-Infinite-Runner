@@ -48,6 +48,8 @@ The custom controller that I have designed includes the following:
 * Unity
 * C#
 * C++ 
+* OpenWeatherMap API https://openweathermap.org
+* Arduino Microcontroller & IDE
 
 ---
 
