@@ -6,18 +6,27 @@
 
 I have created an infinite runner game that uses a custom controller and uses real-time data to affect the weather of the game.
 
----
-
 #### Aims and Objectives
 
-The main objective of the game is to run as far as possible distance as possible to rack up score.
+The main objective of the game is to run as far as possible distance to rack up score.
 
 * You are an insect being chased by a predator running through grass.
 * Along the way, you will run into more predators (birds and ground insects) that will also try to eat you, which you will have to avoid by hiding.
 * Don't hide for too long, otherwise the chasing predator will catch up and eat you.
-* You have 3 lanes to run in, which you can swtich to when running.
+* You have 3 lanes to run in, which you can switch to when running.
 * You can collect leaves along the lanes which will boost your score at the end of the game depending on how many you collect.
 
+#### Real-Time Weather Data
+
+The Unity program uses [OpenWeather](https://openweathermap.org) weather data to influence the weather conditions of the game. 
+
+* You can choose the desired location of weather, e.g. London, New York, etc.
+* Dependant on temperature conditions, the game will either be:
+    * Raining
+    * Snowing
+    * Cloudy
+    * Sunny
+    
 ---
 
 ### Controls
