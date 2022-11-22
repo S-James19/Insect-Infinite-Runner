@@ -57,7 +57,7 @@ The custom controller that I have designed includes the following:
 
 1. Clone repository
 
-``` git clone https://github.com/your_username_/Project-Name.git ```
+``` git clone https://github.com/S-James19/Insect-Infinite-Runner ```
 
 2. Create 'key.txt' text file in Insect-Infinite-Runner/Unity Project/User directory.
 
