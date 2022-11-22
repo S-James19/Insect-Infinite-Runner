@@ -76,9 +76,3 @@ The custom controller that I have designed includes the following:
 8. Paste city code into city field.
 
 9. Build project, save wherever you like.
-
-### License
-
----
-
-Find external resources / credits in CREDITS.md
