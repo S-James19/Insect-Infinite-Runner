@@ -1,6 +1,6 @@
 **This project is licensed under the [Attribution-ShareAlike CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)**
 
-**Template: https://github.com/Gibberlings3/GitHub-Templates
+**Template: https://github.com/Gibberlings3/GitHub-Templates**
 
 # Attribution-ShareAlike 4.0 International
 
