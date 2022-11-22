@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Player1
+  - Player1Distance
+  - Player1DistanceModifier
+  - Timer
+  - Connect
+  - Level
+  - mainmenu
+  - gameui
+  - trigger
+  - Player2
+  - SpawnPoint
+  - MenuContent
+  - SubMenu
+  - Ground
+  - Food
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Pillars
+  - Water
+  - UI
+  - Player
+  - Runway
+  - Spawn
+  - Enemy
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
