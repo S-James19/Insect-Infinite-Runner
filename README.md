@@ -26,9 +26,9 @@ The main objective of the game is to run as far as possible distance as possible
 
 The player will automatically run for you.
 
-* W - Hide underground
+* W - Stop moving
 * A - Switch lane left / hide left
-* S - Stop moving
+* S - Hide underground
 * D - Switch lane right / hide right
 
 #### Custom Controller
