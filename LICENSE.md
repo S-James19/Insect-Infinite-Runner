@@ -1,4 +1,4 @@
-   **This is an educational project completed at university**
+   **This is an educational project completed at university.**
    **Any issues with the licensing, please contact me at samueljames2002@outlook.com**
    
    ### Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
