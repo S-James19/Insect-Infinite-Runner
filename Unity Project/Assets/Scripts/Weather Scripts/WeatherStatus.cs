@@ -1,14 +1,6 @@
-﻿
-// Conditions explained: https://openweathermap.org/weather-conditions
-
-/*
-	I got this code from this video package: https://www.youtube.com/watch?v=x53swDdRVOk;
-
-	Source: https://openweathermap.org
-
-	Api response docs: https://openweathermap.org/current
+﻿/*
+	All source code in this script has come from this video: https://www.youtube.com/watch?v=x53swDdRVOk
 */
-
 public class WeatherStatus {
 	public int weatherId;
 	public string main;

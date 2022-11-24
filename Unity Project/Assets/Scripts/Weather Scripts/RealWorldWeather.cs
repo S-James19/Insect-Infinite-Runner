@@ -4,15 +4,11 @@ using Newtonsoft.Json.Linq;
 using UnityEngine;
 using UnityEngine.Networking;
 
+/*
+	All source code in this script has come from this video: https://www.youtube.com/watch?v=x53swDdRVOk
+*/
 public class RealWorldWeather : MonoBehaviour {
 
-	/*
-		I got this code from this video package: https://www.youtube.com/watch?v=x53swDdRVOk;
-
-		Source: https://openweathermap.org
-
-		Api response docs: https://openweathermap.org/current
-	*/
 
 	[SerializeField] private string city;
 	[SerializeField] private bool useLatLng = false;

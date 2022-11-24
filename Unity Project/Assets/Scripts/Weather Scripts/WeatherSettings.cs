@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+    The code in this script has used data from OpenWeather, which is licensed under the CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/  
+*/
 public class WeatherSettings : MonoBehaviour
 {
     [SerializeField] private WeatherType _defaultWeather;
