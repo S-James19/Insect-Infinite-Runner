@@ -6,8 +6,8 @@ using System.IO;
 
 public class ReadPrivateFiles
 {
-    private static string _privateDirectory;
-    private static bool _isSetUp;
+    private static string _privateDirectory; // path to private directory
+    private static bool _isSetUp; // has path been generated
 
 
     /// <summary>
@@ -19,6 +19,7 @@ public class ReadPrivateFiles
         if(!_isSetUp) // if class variable not set
         {
             GetPrivateDirectory(); // get project path
+            _isSetUp = true;
         }
 
         string keyPath = _privateDirectory + "key.txt"; // ket file path of api key
@@ -27,10 +28,10 @@ public class ReadPrivateFiles
         {
             using (StreamReader reader = new StreamReader(keyPath))
             {
-                string keyContent = reader.ReadToEnd(); // read key
-                string[] keySplit = keyContent.Split('\"');
+                string keyContent = reader.ReadToEnd(); // read content of key file
+                string[] keySplit = keyContent.Split('\"'); // split content up into words
                 reader.Close();
-                return keySplit[1];
+                return keySplit[1]; // return key value
             }
         }
 

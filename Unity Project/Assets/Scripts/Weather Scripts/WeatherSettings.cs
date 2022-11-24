@@ -13,9 +13,11 @@ public class WeatherSettings : MonoBehaviour
     [SerializeField] private GameObject _rain, _snow;
     [SerializeField] private RealWorldWeather _weatherData;
     public WeatherType _weatherType { get; private set; }
+    private static WeatherType _previousWeather;
     public static WeatherSettings Instance;
     private void Awake()
     {
+        Debug.Log(_previousWeather);
         _weatherType = _defaultWeather; // set the weather type to the default weather
         if(Instance != null && Instance != this) // if there is already a weather settings in scene
         {
@@ -33,27 +35,30 @@ public class WeatherSettings : MonoBehaviour
 
     private void Start()
     {
-        if(_weatherData._foundWeather) // if there is a weather found from API
-        {
-            Debug.Log("found");
-            float temperature = _weatherData._weather.temperature; // get the temperature
+        bool isWeather = false; // too see if new weather has been found
+        float temperature = 0; // temperature of specified location
 
-            if(temperature < 0f) // snow
-            {
-                Snowing();
-            }
-            else if(temperature > 0f && temperature < 12f) // rain
-            {
-                Raining();
-            }
-            else if (temperature > 12f && temperature < 18f) // clouds
-            {
-                Cloudy();
-            }
-            else // sunny
-            {
-                Sunny();
-            }
+        if (_weatherData._foundWeather) // if there is a weather found from API
+        {
+            temperature = _weatherData._weather.temperature; // get the temperature
+            isWeather = true; // there is weather
+        }
+
+        if((temperature < 0f && isWeather) || (_previousWeather == WeatherType.snow && !isWeather)) // snow
+        {
+            Snowing();
+        }
+        else if(((temperature > 0f && temperature < 12f) && isWeather) || (_previousWeather == WeatherType.rain && !isWeather)) // rain
+        {
+            Raining();
+        }
+        else if (((temperature > 12f && temperature < 18f) && isWeather) || (_previousWeather == WeatherType.clouds && !isWeather)) // clouds
+        {
+            Cloudy();
+        }
+        else // sunny
+        {
+            Sunny();
         }
     }
     /// <summary>
@@ -63,6 +68,7 @@ public class WeatherSettings : MonoBehaviour
     {
         RenderSettings.skybox = _rainySky;
         _weatherType = WeatherType.rain;
+        _previousWeather = _weatherType;
         SpawnParticleEffect(_rain);
 
     }
@@ -74,6 +80,7 @@ public class WeatherSettings : MonoBehaviour
     {
         RenderSettings.skybox = _snowySky;
         _weatherType = WeatherType.snow;
+        _previousWeather = _weatherType;
         SpawnParticleEffect(_snow);
     }
 
@@ -85,6 +92,7 @@ public class WeatherSettings : MonoBehaviour
     {
         RenderSettings.skybox = _sunnySky;
         _weatherType = WeatherType.sun;
+        _previousWeather = _weatherType;
     }
 
     /// <summary>
@@ -94,6 +102,7 @@ public class WeatherSettings : MonoBehaviour
     {
         RenderSettings.skybox = _cloudySky;
         _weatherType = WeatherType.clouds;
+        _previousWeather = _weatherType;
     }
 
     /// <summary>

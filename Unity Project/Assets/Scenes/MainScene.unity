@@ -1209,7 +1209,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01b1b4296716ebf4e8e0bb522aa4b7d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  apiKey: 
   city: 2643743
   useLatLng: 0
   latitude: 
