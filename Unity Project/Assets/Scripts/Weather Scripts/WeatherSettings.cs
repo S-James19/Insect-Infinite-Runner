@@ -35,6 +35,7 @@ public class WeatherSettings : MonoBehaviour
     {
         if(_weatherData._foundWeather) // if there is a weather found from API
         {
+            Debug.Log("found");
             float temperature = _weatherData._weather.temperature; // get the temperature
 
             if(temperature < 0f) // snow

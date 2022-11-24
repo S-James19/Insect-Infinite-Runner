@@ -27,9 +27,10 @@ public class ReadPrivateFiles
         {
             using (StreamReader reader = new StreamReader(keyPath))
             {
-                string key = reader.ReadToEnd(); // read key
+                string keyContent = reader.ReadToEnd(); // read key
+                string[] keySplit = keyContent.Split('\"');
                 reader.Close();
-                return key;
+                return keySplit[1];
             }
         }
 
