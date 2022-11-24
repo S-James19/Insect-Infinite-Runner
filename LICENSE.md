@@ -1,14 +1,5 @@
    **This is an educational project completed at university.**
    **Any issues with the licensing, please contact me at samueljames2002@outlook.com**
-   
-   ### Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
-   
-   The following scripts are covered by the [Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/) license:
-   
-   * RealWorldWeather.cs
-   * WeatherStatus.cs
-   * WeatherSettings.cs
-   * GenerateTerrain.cs
                    
   ### GNU General Public License v3
   
